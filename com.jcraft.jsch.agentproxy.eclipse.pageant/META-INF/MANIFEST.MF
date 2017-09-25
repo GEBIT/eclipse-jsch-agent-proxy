@@ -6,8 +6,8 @@ Bundle-Version: 1.0.0.qualifier
 Bundle-Activator: com.jcraft.jsch.agentproxy.eclipse.pageant.Activator
 Bundle-Vendor: JCraft, Inc.
 Require-Bundle: org.eclipse.core.runtime,
- org.eclipse.jsch.core;bundle-version="1.1.400",
- com.jcraft.jsch;bundle-version="0.1.49"
+ org.eclipse.jsch.core,
+ com.jcraft.jsch
 Bundle-RequiredExecutionEnvironment: JavaSE-1.6
 Bundle-ActivationPolicy: lazy
 Bundle-ClassPath: .,
